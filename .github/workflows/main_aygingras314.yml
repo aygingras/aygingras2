@@ -35,5 +35,5 @@ jobs:
         app-name: aygingras314
         slot-name: Production
         publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0E9A920A827F499B95D86F77C4A35DB2 }}
-        package: ${{env.DOTNET_ROOT}}/myapp
+        package: . scl_source enable llvm-toolset-6.0 || true
 
