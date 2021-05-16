@@ -53,4 +53,5 @@ jobs:
         app-name: 'aygingras3141'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_64ba9187ce0d45c8a7f4c6e71f1a42ad }}
-        package: .
+        package: . scl_source enable llvm-toolset-6.0 || true
+        
